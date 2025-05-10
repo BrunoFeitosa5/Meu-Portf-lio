@@ -8,7 +8,7 @@ function Projetos() {
 
     useEffect(() => {
         const buscarRepositorios = async () => {
-            const response = await fetch('https://api.github.com/users/edsonmaia/repos?page=1&per_page=50')
+            const response = await fetch('https://api.github.com/users/BrunoFeitosa5/repos')
             const data = await response.json()
             setRepositories(data)
         }
@@ -26,7 +26,7 @@ function Projetos() {
                                 <Card
                                     key={repo.id}
                                     name={repo.name}
-                                    description={repo.description}
+                                    description={repo.descriptio}
                                     html_url={repo.html_url}
                                 />
                             ))

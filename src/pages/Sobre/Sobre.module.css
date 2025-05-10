@@ -6,12 +6,22 @@
     align-items: center;
     justify-content: center;
 }
+.minha {
+     width: 22%; /* Tamanho da imagem */
+    border-radius: 50px; /* Deixa a imagem redonda */
+    object-fit: cover; 
+    box-shadow: 0 0 15px 5px; }
 
+
+
+    
 .bio {
     display: flex;
     align-items: center;
     gap: 3rem;
     margin-bottom: 1.5rem;
+    font-size: 20px;
+ 
 }
 
 .bio span {

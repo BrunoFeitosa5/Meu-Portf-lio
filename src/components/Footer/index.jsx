@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 function Footer() {
     return (
         <footer className={styles.footer}>
-            Feito com ❣️ por Edson Maia © 2023
+            Feito com muita dedicação e carinho por Bruno Feitosa © 2025
         </footer>
     )
 }

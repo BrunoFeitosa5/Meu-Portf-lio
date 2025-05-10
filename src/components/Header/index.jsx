@@ -12,7 +12,7 @@ function Header() {
     return (
         <header className={styles.header}>
             <Link to="/">
-                <span>edsonMaia.dev</span>
+                <span>BrunoFeitosa.dev</span>
             </Link>
             <nav
                 className={`${styles.menuSandwich} ${showMenu ? styles.show : ''}`}

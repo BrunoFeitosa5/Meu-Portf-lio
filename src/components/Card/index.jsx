@@ -7,7 +7,7 @@ function Card({ name, description, html_url }) {
     return (
         <section className={styles.card}>
             <h3>{name}</h3>
-            <p>{description}</p>
+            <p>{description}Confira meu proejto na seta abaixo.</p>
             <div className={styles.card_footer}>
                 <div className={styles.card_icones}>
                     <FaHtml5 />
