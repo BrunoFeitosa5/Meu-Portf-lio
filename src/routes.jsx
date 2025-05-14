@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
 import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import Projetos from './pages/Projetos'
@@ -11,11 +11,14 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<PageBase />}>
-                    <Route index element={ <Home /> }></Route>
-                    <Route path="/sobre" element={ <Sobre /> }></Route>
-                    <Route path="/projetos" element={ <Projetos /> }></Route>
-                    <Route path="/contatos" element={ <Contatos /> }></Route>
-                    <Route path="*" element={ <Page404 /> }></Route>
+                    <Route index element={<Home />} />
+                    <Route path="sobre" element={<Sobre />} />
+                    <Route path="projetos" element={<Projetos />} />
+                    <Route path="contatos" element={<Contatos />} />
+                    <Route path="Page404"element={<Page404 />} />
+
+                    {/* Ao invés de mostrar a página 404, redireciona para Home */}
+                    <Route path="*" element={<Navigate to="/" replace />} />
                 </Route>
             </Routes>
         </BrowserRouter>
