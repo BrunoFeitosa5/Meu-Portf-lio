@@ -1,26 +1,27 @@
 .sobre {
-    width: 100%;
-    min-height: 85vh;
+    width: 66%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .minha {
-     width: 22%; /* Tamanho da imagem */
-    border-radius: 50px; /* Deixa a imagem redonda */
-    object-fit: cover; 
-    box-shadow: 0 0 15px 5px; }
-
+    width: 32%;
+  height: 10%;
+  border-radius: 50%; /* Deixa a imagem totalmente arredondada */
+  border: 1px solid rgb(14, 13, 18); /* Define uma borda preta com 5px de espessura */
+  object-fit: cover; }
 
 
     
 .bio {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 6rem;
     margin-bottom: 1.5rem;
-    font-size: 20px;
+    font-size: 19px;
+ 
  
 }
 
@@ -36,6 +37,11 @@
 
 .textos h2, p {
     margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.textos h2{
+    font-size: 28px;
 }
 
 .techs {
@@ -43,7 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .icones {

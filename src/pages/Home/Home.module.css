@@ -9,11 +9,17 @@
   }
   
   .home img {
-    height: 500px;
+    width: 70%;
+    border-radius: 20%; /* Deixa a imagem redonda */
+    object-fit: cover; 
+    box-shadow: 0 0 15px 5px; 
+    
+    
+    
   }
   
   .home p {
-    font-size: 3rem; /* 48px */
+    font-size: 4rem; /* 48px */
     font-weight: bold;
     margin-bottom: 1rem;
   }

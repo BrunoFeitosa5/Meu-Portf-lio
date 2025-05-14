@@ -1,5 +1,5 @@
 import styles from './Sobre.module.css'
-import minha from './images/minha.png'
+import Foto2 from './images/Foto2.png'
 import html from './images/icon-html.svg'
 import css from './images/icon-css.svg'
 import js from './images/icon-js.svg'
@@ -12,14 +12,14 @@ function Sobre() {
         <section className={styles.sobre}>
              
              <div className={styles.bio}>
-                <img src={minha} alt="avatar.png" className={styles.minha} />
+                <img src={Foto2} alt="avatar.png" className={styles.minha} />
                 <div className={styles.textos}>
                     <h2>Sobre</h2>
 
                     <p>Sou <span>Bruno Feitosa</span> <br />
                     <strong>Dev Full Stack</strong> </p>
 
-                    <p>Estudo Análise e Desenvolvimnto de Sistemas desde 2023</p>
+                    <p>Estudo Análise e Desenvolvimnto de Sistemas desde 2023.</p>
 
                     <p>Sou apaixonado por transformar ideias em realidade digital.</p>
 
